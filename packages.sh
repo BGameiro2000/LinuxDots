@@ -54,6 +54,8 @@ AURPACKAGES+="
 	captain-frank-cursors-git
 	rofimoji
 	nerd-fonts-complete
+	ttf-xkcd-script-font
+	otf-xkcd-font
 "
 
 # Add common command utilities
