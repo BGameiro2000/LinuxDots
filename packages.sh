@@ -94,10 +94,16 @@ PACKAGES+="
 	dlang
 	python3
 	ghc
+	eclipse-javascript
 "
 AURPACKAGES+="
 	godot
 	gitkraken
+	eclipse-linuxtools
+	eclipse-jsonedit
+	eclipse-markdown
+	eclipse-pydev
+	eclipse-texlipse
 "
 
 # Add rice utilities
@@ -116,6 +122,7 @@ PACKAGES+="
 #	shotcut or kdenlive
 	lmms
 	blender
+	mixxx
 "
 
 # Image, video and music 
