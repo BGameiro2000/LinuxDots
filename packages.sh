@@ -71,10 +71,10 @@ PACKAGES+="
 	bluez-utils
 	zip
 	unzip
+	unrar
 "
 AURPACKAGES+="
 	rar
-	unrar
 "
 
 # Add common utilities
@@ -113,6 +113,7 @@ PACKAGES+="
 	#clock?
   	neofetch
 	netdata
+	#cava
 "
 AURPACKAGES+="
 "
@@ -146,6 +147,15 @@ PACKAGES+="
 	jack
 	pulseaudio-jack
 	pavucontrol
+"
+
+# Add common filesystem support packages
+PACKAGES+="
+	flac
+	faac
+	x264
+	x265
+	libmpeg2
 "
 
 # Add common filesystem support packages
