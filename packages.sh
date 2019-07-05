@@ -34,12 +34,18 @@ AURPACKAGES+="
 PACKAGES+="
 "
 AURPACKAGES+="
-	captain-cursors
+	captain-frank-cursors-git
+	rofimoji
+	nerd-fonts-complete
 "
 
 # Add common apps
 PACKAGES+="
 	git
+	openssh
+	openssl
+	rsync
+	lshw
 "
 
 # Add common text editors
@@ -57,25 +63,22 @@ PACKAGES+="
 PACKAGES+="
 	dlang
 	python3
-  ghc
+	ghc
 "
 
-# Add common utilities
+# Add rice utilities
 PACKAGES+="
-	vlc
-	lshw
-	openssh
-	openssl
-  neofetch
+	#clock?
+  	neofetch
 "
 AURPACKAGES+="
 "
 
-# Add common design and handwriting utilities
+# Add common design utilities
 PACKAGES+="
-#	gimp
-#	krita
+#	gimp or krita
 	inkscape
+#	opencut or
 "
 
 # Add common audio utilities and packages
@@ -89,6 +92,10 @@ PACKAGES+="
 "
 
 # Games
+PACKAGES+="
+	steam
+	ttf-liberation
+"
  AURPACKAGES+="
  	minecraft-launcher
  "
