@@ -4,28 +4,37 @@
 PACKAGES=""
 AURPACKAGES=""
 
-# Add common graphical apps and themes
-PACKAGES+="
-"
-AURPACKAGES+="
-	captain-cursors
-"
-
 # Add common graphics interface packages and drivers
 PACKAGES+="
 	xorg
 	xorg-apps
-	xf86-input-libinput
-	xf86-video-intel
 	xorg-fonts
-	lib32-virtualgl
+	xf86-input-libinput
+	xf86-video-vesa
+	lib32-mesa
+	xf86-video-intel
 	vulkan-intel
+	xf86-video-amdgpu
 "
 
-# Add common fonts
+# Add common wm, dm, etc
+PACKAGES+="
+	lightdm
+	lightdm-webkit2-greeter
+	bspwm
+	sxhkd
+	rofi
+	#compton or compton-tryone-git ?
+"
+AURPACKAGES+="
+	lightdm-webkit-theme-aether
+"
+
+# Add common fonts, themes, cursors
 PACKAGES+="
 "
 AURPACKAGES+="
+	captain-cursors
 "
 
 # Add common apps
