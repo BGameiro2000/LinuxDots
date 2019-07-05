@@ -64,6 +64,15 @@ PACKAGES+="
 	openssl
 	rsync
 	lshw
+	networkmanager
+	bluez
+	bluez-utils
+	zip
+	unzip
+"
+AURPACKAGES+="
+	rar
+	unrar
 "
 
 # Add common utilities
