@@ -27,10 +27,10 @@ PACKAGES+="
 	bspwm
 	sxhkd
 	rofi
-	#compton or compton-tryone-git ?
 "
 AURPACKAGES+="
 	lightdm-webkit-theme-aether
+	compton-tryone-git 
 "
 
 # Add essencial apps
