@@ -12,9 +12,12 @@ PACKAGES+="
 	xf86-input-libinput
 	xf86-video-vesa
 	lib32-mesa
+	vulkan-icd-loader
+	lib32-vulkan-icd-loader
 	xf86-video-intel
 	vulkan-intel
 	xf86-video-amdgpu
+	vulkan-radeon
 "
 
 # Add common wm, dm, etc
@@ -30,8 +33,22 @@ AURPACKAGES+="
 	lightdm-webkit-theme-aether
 "
 
+# Add essencial apps
+PACKAGES+="
+	rxvt-unicode
+	thunar
+	gvfs
+	thunar-archive-plugin
+	thunar-media-tags-plugin
+	thunar-volman
+	tumbler
+	firefox-developer-edition
+	code
+"
+
 # Add common fonts, themes, cursors
 PACKAGES+="
+	ttf-liberation
 "
 AURPACKAGES+="
 	captain-frank-cursors-git
@@ -39,8 +56,9 @@ AURPACKAGES+="
 	nerd-fonts-complete
 "
 
-# Add common apps
+# Add common command utilities
 PACKAGES+="
+	fish
 	git
 	openssh
 	openssl
@@ -48,15 +66,18 @@ PACKAGES+="
 	lshw
 "
 
-# Add common text editors
+# Add common utilities
 PACKAGES+="
-	code
+	scrot
+	obs-studio
 "
 
 # Add common office software
 PACKAGES+="
 	libreoffice-fresh
 	libreoffice-fresh-pt
+	texlive-most
+	texlive-lang
 "
 
 # Add common development packages
@@ -65,26 +86,48 @@ PACKAGES+="
 	python3
 	ghc
 "
+AURPACKAGES+="
+	godot
+	gitkraken
+"
 
 # Add rice utilities
 PACKAGES+="
 	#clock?
   	neofetch
+	netdata
 "
 AURPACKAGES+="
 "
 
-# Add common design utilities
+# Add common creative suites
 PACKAGES+="
 #	gimp or krita
 	inkscape
-#	opencut or
+#	shotcut or kdenlive
+	lmms
+	blender
 "
 
-# Add common audio utilities and packages
+# Image, video and music 
 PACKAGES+="
+	feh
+	vlc
+#	lollypop
 "
-AURPACKAGES+="
+
+# Add common audio utilities
+PACKAGES+="
+	alsa-firmware
+	alsa-oss
+	alsa-utils
+	pulseaudio
+	pulseaudio-equalizer
+	pulseaudio-alsa
+	pulseaudio-equalizer-ladspa
+	jack
+	pulseaudio-jack
+	pavucontrol
 "
 
 # Add common filesystem support packages
@@ -94,7 +137,7 @@ PACKAGES+="
 # Games
 PACKAGES+="
 	steam
-	ttf-liberation
+	desmume
 "
  AURPACKAGES+="
  	minecraft-launcher
