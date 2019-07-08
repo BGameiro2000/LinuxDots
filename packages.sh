@@ -85,7 +85,6 @@ PACKAGES+="
 	unrar
 "
 AURPACKAGES+="
-	rar
 	phoronix-test-suite
 "
 
