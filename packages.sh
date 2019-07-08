@@ -6,6 +6,7 @@ AURPACKAGES=""
 
 # Add common graphics interface packages and drivers
 PACKAGES+="
+	intel-ucode
 	xorg
 	xorg-apps
 	xorg-fonts
@@ -24,8 +25,10 @@ PACKAGES+="
 PACKAGES+="
 	lightdm
 	lightdm-webkit2-greeter
-	bspwm
-	sxhkd
+	awesome
+	vicious
+	dex
+	rlwrap
 	rofi
 "
 AURPACKAGES+="
@@ -49,6 +52,9 @@ PACKAGES+="
 # Add common fonts, themes, cursors
 PACKAGES+="
 	ttf-liberation
+	lxappearance
+	materia-kde
+	materia-gtk-theme
 "
 AURPACKAGES+="
 	captain-frank-cursors-git
@@ -60,6 +66,8 @@ AURPACKAGES+="
 
 # Add common command utilities
 PACKAGES+="
+	lastpass-cli
+	lm_sensors
 	fish
 	git
 	openssh
@@ -75,6 +83,7 @@ PACKAGES+="
 "
 AURPACKAGES+="
 	rar
+	phoronix-test-suite
 "
 
 # Add common utilities
@@ -110,29 +119,35 @@ AURPACKAGES+="
 
 # Add rice utilities
 PACKAGES+="
-	#clock?
   	neofetch
 	netdata
 	#cava
 "
 AURPACKAGES+="
+	tty-clock
 "
 
 # Add common creative suites
 PACKAGES+="
-#	gimp or krita
+	gimp or krita
 	inkscape
-#	shotcut or kdenlive
+	shotcut 
 	lmms
 	blender
 	mixxx
 "
+AURPACKAGES+="
+	mathematica
+"
 
 # Image, video and music 
 PACKAGES+="
-	feh
+	#feh
+	mpd
+	mupdf
 	vlc
-#	lollypop
+	ncmpcpp
+	cantata
 "
 
 # Add common audio utilities
@@ -146,7 +161,7 @@ PACKAGES+="
 	pulseaudio-equalizer-ladspa
 	jack
 	pulseaudio-jack
-	pavucontrol
+	#pavucontrol
 "
 
 # Add common filesystem support packages
@@ -169,6 +184,7 @@ PACKAGES+="
 "
  AURPACKAGES+="
  	minecraft-launcher
+	multimc-git
  "
 
 fi
