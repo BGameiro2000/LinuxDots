@@ -7,5 +7,9 @@ arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(MIT)
 depends=(
-    ''
+    'flac'
+	'faac'
+	'x264'
+	'x265'
+	'libmpeg2'
 )
