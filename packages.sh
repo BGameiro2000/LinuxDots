@@ -23,6 +23,8 @@ PACKAGES+="
 
 # Add common wm, dm, etc
 PACKAGES+="
+	light-locker
+	numlockx
 	lightdm
 	lightdm-webkit2-greeter
 	awesome
