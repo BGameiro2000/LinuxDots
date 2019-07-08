@@ -1,0 +1,19 @@
+# Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
+pkgbase='bgameiro'
+pkgname=(
+    'bgameiro-apps'
+    'bgameiro-codecs'
+    'bgameiro-desktop'
+    'bgameiro-devel'
+    'bgameiro-games'
+    'bgameiro-rice'
+    'bgameiro-suites'
+    'bgameiro-themes'
+    'bgameiro-utils'
+)
+pkgver=0.1
+pkgrel=1
+pkgdesc="Packages for BGameiro systems"
+arch=(any)
+url="https://github.com/bgameiro/dotfiles/arch-repo"
+license=(GNU GPLv3)
