@@ -105,7 +105,7 @@ PACKAGES+="
 # Add common development packages
 PACKAGES+="
 	dlang
-	python3
+	python
 	ghc
 	eclipse-javascript
 "
