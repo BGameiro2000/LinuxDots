@@ -62,6 +62,7 @@ AURPACKAGES+="
 	nerd-fonts-complete
 	ttf-xkcd-script-font
 	otf-xkcd-font
+	ttf-anka-coder
 "
 
 # Add common command utilities
