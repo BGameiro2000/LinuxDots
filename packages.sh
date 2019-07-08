@@ -61,7 +61,7 @@ PACKAGES+="
 AURPACKAGES+="
 	captain-frank-cursors-git
 	rofimoji
-	nerd-fonts-complete
+	#nerd-fonts-complete
 	ttf-xkcd-script-font
 	otf-xkcd-font
 	ttf-anka-coder
