@@ -1,0 +1,18 @@
+# Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
+pkgname='bgameiro-editor'
+pkgver=0.1
+pkgrel=1
+pkgdesc="Editor for BGameiro systems"
+arch=(any)
+url="https://github.com/bgameiro/dotfiles/arch-repo"
+license=(GNU GPLv3)
+depends=(
+    'code'
+	'eclipse-javascript'
+	'eclipse-linuxtools'
+	'eclipse-jsonedit'
+	'eclipse-markdown'
+	'eclipse-pydev'
+	'eclipse-texlipse'
+)
+groups='bgameiro-devel'

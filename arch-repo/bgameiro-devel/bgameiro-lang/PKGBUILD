@@ -1,0 +1,14 @@
+# Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
+pkgname='bgameiro-lang'
+pkgver=0.1
+pkgrel=1
+pkgdesc="Programming languages for BGameiro systems"
+arch=(any)
+url="https://github.com/bgameiro/dotfiles/arch-repo"
+license=(GNU GPLv3)
+depends=(
+    'dlang'
+	'python'
+	'ghc'
+)
+groups='bgameiro-devel'

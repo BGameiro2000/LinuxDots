@@ -1,22 +1,13 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgname='bgameiro-devel'
+pkgbase='bgameiro-devel'
+pkgname=(
+    'bgameiro-devel-tools'
+    'bgameiro-editor'
+    'bgameiro-lang'
+)
 pkgver=0.1
 pkgrel=1
 pkgdesc="Development packages for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
-depends=(
-    'code'
-    'dlang'
-	'python'
-	'ghc'
-	'eclipse-javascript'
-    'godot'
-	'gitkraken'
-	'eclipse-linuxtools'
-	'eclipse-jsonedit'
-	'eclipse-markdown'
-	'eclipse-pydev'
-	'eclipse-texlipse'
-)
