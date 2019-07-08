@@ -5,7 +5,7 @@ pkgrel=1
 pkgdesc=" for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
-license=(MIT)
+license=(GNU GPLv3)
 depends=(
     'flac'
 	'faac'
