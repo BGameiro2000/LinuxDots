@@ -2,10 +2,21 @@
 pkgname=
 pkgver=0.1
 pkgrel=1
-pkgdesc=" for BGameiro systems"
+pkgdesc="Development packages for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(MIT)
 depends=(
-    ''
+    'code'
+    'dlang'
+	'python'
+	'ghc'
+	'eclipse-javascript'
+    'godot'
+	'gitkraken'
+	'eclipse-linuxtools'
+	'eclipse-jsonedit'
+	'eclipse-markdown'
+	'eclipse-pydev'
+	'eclipse-texlipse'
 )

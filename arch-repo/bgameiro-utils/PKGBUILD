@@ -1,0 +1,41 @@
+# Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
+pkgname=
+pkgver=0.1
+pkgrel=1
+pkgdesc="Utilities for BGameiro systems"
+arch=(any)
+url="https://github.com/bgameiro/dotfiles/arch-repo"
+license=(MIT)
+depends=(
+    'lastpass-cli'
+	'lm_sensors'
+	'fish'
+	'git'
+	'openssh'
+	'openssl'
+	'rsync'
+	'lshw'
+	'networkmanager'
+	'bluez'
+	'bluez-utils'
+	'zip'
+	'unzip'
+	'unrar'
+    'phoronix-test-suite'
+    'scrot'
+    'obs-studio'
+	'alsa-firmware'
+	'alsa-oss'
+	'alsa-utils'
+	'pulseaudio'
+	'pulseaudio-equalizer'
+	'pulseaudio-alsa'
+	'pulseaudio-equalizer-ladspa'
+	'jack'
+	'pulseaudio-jack'
+	'flac'
+	'faac'
+	'x264'
+	'x265'
+	'libmpeg2'
+)

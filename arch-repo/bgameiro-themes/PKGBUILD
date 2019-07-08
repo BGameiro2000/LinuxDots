@@ -2,10 +2,18 @@
 pkgname=
 pkgver=0.1
 pkgrel=1
-pkgdesc=" for BGameiro systems"
+pkgdesc="Themes, fonts and such for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(MIT)
 depends=(
-    ''
+    'ttf-liberation'
+    'lxappearance'
+    'materia-kde'
+    'materia-gtk-theme'
+    'captain-frank-cursors-git'
+    'rofimoji'
+    'ttf-xkcd-script-font'
+    'otf-xkcd-font'
+    'ttf-anka-coder'
 )

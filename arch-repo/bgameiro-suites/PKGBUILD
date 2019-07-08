@@ -2,10 +2,20 @@
 pkgname=
 pkgver=0.1
 pkgrel=1
-pkgdesc=" for BGameiro systems"
+pkgdesc="Software suites for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(MIT)
 depends=(
-    ''
+    'libreoffice-fresh'
+	'libreoffice-fresh-pt'
+	'texlive-most'
+	'texlive-lang'
+    'krita'
+	'inkscape'
+	'shotcut'
+	'lmms'
+	'blender'
+	'mixxx'
+    'mathematica'
 )

@@ -1,0 +1,23 @@
+# Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
+pkgname=
+pkgver=0.1
+pkgrel=1
+pkgdesc="Apps for BGameiro systems"
+arch=(any)
+url="https://github.com/bgameiro/dotfiles/arch-repo"
+license=(MIT)
+depends=(
+    'rxvt-unicode'
+    'thunar'
+    'gvfs'
+    'thunar-archive-plugin'
+    'thunar-media-tags-plugin'
+    'thunar-volman'
+    'tumbler'
+    'firefox-developer-edition'
+    'mpd'
+	'mupdf'
+	'vlc'
+	'ncmpcpp'
+	'cantata'
+)
