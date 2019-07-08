@@ -24,6 +24,7 @@ depends=(
     'phoronix-test-suite'
     'scrot'
     'obs-studio'
+	'mupdf'
 	'alsa-firmware'
 	'alsa-oss'
 	'alsa-utils'
