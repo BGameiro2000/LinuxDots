@@ -1,0 +1,17 @@
+# Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
+pkgname='bgameiro-awesome'
+pkgver=0.1
+pkgrel=1
+pkgdesc="AwesomeWM for BGameiro systems"
+arch=(any)
+url="https://github.com/bgameiro/dotfiles/arch-repo"
+license=(GNU GPLv3)
+depends=(
+    'awesome'
+    'vicious'
+    'dex'
+    'rlwrap'
+    'rofi'
+    'compton-tryone-git'
+)
+groups='bgameiro-desktop'
