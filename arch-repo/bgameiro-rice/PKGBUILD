@@ -1,5 +1,5 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgname=
+pkgname='bgameiro-rice'
 pkgver=0.1
 pkgrel=1
 pkgdesc="Rice-related utilities for BGameiro systems"

@@ -1,5 +1,5 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgname=
+pkgname='bgameiro-themes'
 pkgver=0.1
 pkgrel=1
 pkgdesc="Themes, fonts and such for BGameiro systems"

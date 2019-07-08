@@ -1,5 +1,5 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgname=
+pkgname='bgameiro-desktop'
 pkgver=0.1
 pkgrel=1
 pkgdesc="Desktop and basic packages for BGameiro systems"

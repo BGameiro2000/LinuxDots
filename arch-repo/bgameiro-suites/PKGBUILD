@@ -1,5 +1,5 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgname=
+pkgname='bgameiro-suites'
 pkgver=0.1
 pkgrel=1
 pkgdesc="Software suites for BGameiro systems"

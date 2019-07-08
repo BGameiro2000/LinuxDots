@@ -1,5 +1,5 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgname=
+pkgname='bgameiro-apps'
 pkgver=0.1
 pkgrel=1
 pkgdesc="Apps for BGameiro systems"
