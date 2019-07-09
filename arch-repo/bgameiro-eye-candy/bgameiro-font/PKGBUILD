@@ -1,14 +1,16 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgname='bgameiro-rice'
+pkgname='bgameiro-font'
 pkgver=0.1
 pkgrel=1
-pkgdesc="Rice-related utilities for BGameiro systems"
+pkgdesc="Fonts for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
 depends=(
-    'neofetch'
-	'netdata'
-    'tty-clock'
+    'ttf-liberation'
+	'rofimoji'
+    'ttf-xkcd-script-font'
+    'otf-xkcd-font'
+    'ttf-anka-coder'
 )
 groups='bgameiro-eye-candy'

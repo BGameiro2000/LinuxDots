@@ -1,19 +1,13 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgname='bgameiro-themes'
+pkgbase='bgameiro-eye-candy'
+pkgname=(
+    'bgameiro-font'
+    'bgameiro-rice'
+    'bgameiro-theme'
+)
 pkgver=0.1
 pkgrel=1
 pkgdesc="Themes, fonts and such for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
-depends=(
-    'ttf-liberation'
-    'lxappearance'
-    'materia-kde'
-    'materia-gtk-theme'
-    'captain-frank-cursors-git'
-    'rofimoji'
-    'ttf-xkcd-script-font'
-    'otf-xkcd-font'
-    'ttf-anka-coder'
-)

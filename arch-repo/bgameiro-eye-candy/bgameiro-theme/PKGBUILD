@@ -1,14 +1,15 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgname='bgameiro-rice'
+pkgname='bgameiro-theme'
 pkgver=0.1
 pkgrel=1
-pkgdesc="Rice-related utilities for BGameiro systems"
+pkgdesc="Themes for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
 depends=(
-    'neofetch'
-	'netdata'
-    'tty-clock'
+    'lxappearance'
+    'materia-kde'
+    'materia-gtk-theme'
+    'captain-frank-cursors-git'
 )
 groups='bgameiro-eye-candy'
