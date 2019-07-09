@@ -1,0 +1,16 @@
+# Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
+pkgname='bgameiro-office'
+pkgver=0.1
+pkgrel=1
+pkgdesc="Office suite for BGameiro systems"
+arch=(any)
+url="https://github.com/bgameiro/dotfiles/arch-repo"
+license=(GNU GPLv3)
+depends=(
+    'libreoffice-fresh'
+	'libreoffice-fresh-pt'
+	'texlive-most'
+	'texlive-lang'
+	'mathematica'
+)
+groups='bgameiro-suites'
