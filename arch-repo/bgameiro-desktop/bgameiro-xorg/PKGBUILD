@@ -10,6 +10,7 @@ depends=(
     'xorg'
     'xorg-apps'
     'xorg-fonts'
+    'xorg/xinit'
     'xf86-input-libinput'
     'xf86-video-vesa'
     'lib32-mesa'
