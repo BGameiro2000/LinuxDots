@@ -11,6 +11,5 @@ depends=(
     'lightdm-webkit2-greeter'
     'light-locker'
     'numlockx'
-    'lightdm-webkit-theme-aether'
 )
 groups='bgameiro-desktop'

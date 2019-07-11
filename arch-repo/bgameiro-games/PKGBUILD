@@ -9,6 +9,6 @@ license=(GNU GPLv3)
 depends=(
     'steam'
 	'desmume'
-    'minecraft-launcher'
-	'multimc-git'
+    'minecraft-launcher' #AUR
+	'multimc-git' #AUR
 )

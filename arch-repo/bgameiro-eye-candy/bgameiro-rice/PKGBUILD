@@ -8,7 +8,6 @@ url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
 depends=(
     'neofetch'
-	'netdata'
-    'tty-clock'
+    #'tty-clock' #AUR
 )
 groups='bgameiro-eye-candy'

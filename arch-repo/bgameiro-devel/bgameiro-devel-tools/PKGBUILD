@@ -11,3 +11,5 @@ depends=(
 	'gitkraken'
 )
 groups='bgameiro-devel'
+
+#AUR

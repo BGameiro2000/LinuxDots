@@ -7,9 +7,8 @@ arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
 depends=(
-    'lxappearance'
     'materia-kde'
     'materia-gtk-theme'
-    'captain-frank-cursors-git'
+    'captain-frank-cursors-git' #AUR
 )
 groups='bgameiro-eye-candy'

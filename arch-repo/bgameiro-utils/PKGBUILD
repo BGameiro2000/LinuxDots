@@ -7,7 +7,6 @@ arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
 depends=(
-    'lastpass-cli'
 	'lm_sensors'
 	'fish'
 	'git'
@@ -16,12 +15,9 @@ depends=(
 	'rsync'
 	'lshw'
 	'networkmanager'
-	'bluez'
-	'bluez-utils'
 	'zip'
 	'unzip'
 	'unrar'
-    'phoronix-test-suite'
     'scrot'
     'obs-studio'
 	'mupdf'

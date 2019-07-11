@@ -12,6 +12,6 @@ depends=(
     'dex'
     'rlwrap'
     'rofi'
-    'compton-tryone-git'
+    'compton'
 )
 groups='bgameiro-desktop'

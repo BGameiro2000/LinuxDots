@@ -12,5 +12,8 @@ depends=(
     'ttf-xkcd-script-font'
     'otf-xkcd-font'
     'ttf-anka-coder'
+    'font-mathematica'
 )
 groups='bgameiro-eye-candy'
+
+#AUR
