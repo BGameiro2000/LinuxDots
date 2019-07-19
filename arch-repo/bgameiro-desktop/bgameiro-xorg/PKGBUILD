@@ -8,8 +8,8 @@ url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
 depends=(
     'xorg-server'
-    'xorg-apps'
-    'xorg-fonts'
+    'xorg-font-util'
+    'xorg-fonts-encodings'
     'xorg-xinit'
     'mesa'
     'xf86-input-libinput'
@@ -18,3 +18,4 @@ depends=(
     'vulkan-icd-loader'
     'lib32-vulkan-icd-loader'
 )
+# Add xorg-apps

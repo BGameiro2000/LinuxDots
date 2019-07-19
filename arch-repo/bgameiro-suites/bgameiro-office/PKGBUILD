@@ -9,6 +9,16 @@ license=(GNU GPLv3)
 depends=(
     'libreoffice-fresh'
 	'libreoffice-fresh-pt'
-	'texlive-most'
-	'texlive-lang'
+	'texlive-bibtexextra'
+	'texlive-core'
+	'texlive-fontsextra'
+	'texlive-formatsextra'
+	'texlive-games'
+	'texlive-humanities'
+	'texlive-latexextra'
+	'texlive-music'
+	'texlive-pictures'
+	'texlive-pstricks'
+	'texlive-publishers'
+	'texlive-science'
 )
