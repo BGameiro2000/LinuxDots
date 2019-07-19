@@ -9,6 +9,5 @@ license=(GNU GPLv3)
 depends=(
     'materia-kde'
     'materia-gtk-theme'
-    'captain-frank-cursors-git' #AUR
 )
 groups='bgameiro-eye-candy'

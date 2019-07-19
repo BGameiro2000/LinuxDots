@@ -8,11 +8,6 @@ url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
 depends=(
     'code'
-	'eclipse-javascript'
-	'eclipse-linuxtools'
-	'eclipse-jsonedit'
-	'eclipse-markdown'
-	'eclipse-pydev'
-	'eclipse-texlipse'
+	'jupyterlab'
 )
 groups='bgameiro-devel'

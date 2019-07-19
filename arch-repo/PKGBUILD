@@ -6,9 +6,8 @@ pkgname=(
     'bgameiro-desktop'
     'bgameiro-devel'
     'bgameiro-games'
-    'bgameiro-rice'
+    'bgameiro-eye/candy'
     'bgameiro-suites'
-    'bgameiro-themes'
     'bgameiro-utils'
 )
 pkgver=0.1

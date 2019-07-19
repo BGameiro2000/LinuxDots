@@ -2,7 +2,6 @@
 pkgbase='bgameiro-eye-candy'
 pkgname=(
     'bgameiro-font'
-    'bgameiro-rice'
     'bgameiro-theme'
 )
 pkgver=0.1

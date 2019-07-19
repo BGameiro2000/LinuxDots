@@ -1,7 +1,6 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgbase='bgameiro-devel'
 pkgname=(
-    'bgameiro-devel-tools'
     'bgameiro-editor'
     'bgameiro-lang'
 )

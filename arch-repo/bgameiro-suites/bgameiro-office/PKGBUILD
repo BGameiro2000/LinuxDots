@@ -11,6 +11,5 @@ depends=(
 	'libreoffice-fresh-pt'
 	'texlive-most'
 	'texlive-lang'
-	'mathematica' #AUR
 )
 groups='bgameiro-suites'

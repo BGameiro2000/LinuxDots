@@ -9,11 +9,6 @@ license=(GNU GPLv3)
 depends=(
     'ttf-liberation'
 	'rofimoji'
-    'ttf-xkcd-script-font'
-    'otf-xkcd-font'
-    'ttf-anka-coder'
     'font-mathematica'
 )
 groups='bgameiro-eye-candy'
-
-#AUR
