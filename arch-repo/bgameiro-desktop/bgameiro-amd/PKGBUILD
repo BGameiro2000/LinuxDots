@@ -11,4 +11,3 @@ depends=(
     'vulkan-radeon'
     'amd-ucode'
 )
-groups=('bgameiro-desktop')

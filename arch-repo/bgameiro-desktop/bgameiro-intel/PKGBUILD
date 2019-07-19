@@ -11,4 +11,3 @@ depends=(
     'xf86-video-intel'
     'vulkan-intel'
 )
-groups=('bgameiro-desktop')

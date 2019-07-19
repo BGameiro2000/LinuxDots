@@ -2,7 +2,7 @@
 pkgname='bgameiro-games'
 pkgver=0.1
 pkgrel=1
-pkgdesc="Games for BGameiro systems"
+pkgdesc="Game related applications for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)

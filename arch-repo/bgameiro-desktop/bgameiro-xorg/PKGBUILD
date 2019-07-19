@@ -18,4 +18,3 @@ depends=(
     'vulkan-icd-loader'
     'lib32-vulkan-icd-loader'
 )
-groups=('bgameiro-desktop')

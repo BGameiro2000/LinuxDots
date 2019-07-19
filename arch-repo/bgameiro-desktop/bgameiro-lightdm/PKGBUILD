@@ -11,4 +11,3 @@ depends=(
     'light-locker'
     'numlockx'
 )
-groups=('bgameiro-desktop')

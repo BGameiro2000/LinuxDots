@@ -14,4 +14,3 @@ depends=(
 	'blender'
 	'mixxx'
 )
-groups=('bgameiro-suites')

@@ -1,6 +1,6 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgbase='bgameiro-desktop'
-pkgname=(
+pkgname='bgameiro-desktop'
+depends=(
     'bgameiro-amd'
     'bgameiro-intel'
     'bgameiro-awesome'

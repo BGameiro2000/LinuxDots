@@ -11,4 +11,3 @@ depends=(
 	'rofimoji'
     'font-mathematica'
 )
-groups=('bgameiro-eye-candy')

@@ -12,4 +12,3 @@ depends=(
 	'ncmpcpp'
 	'cantata'
 )
-groups=('bgameiro-apps')

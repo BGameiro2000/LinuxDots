@@ -1,6 +1,6 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgbase='bgameiro-suites'
-pkgname=(
+pkgname='bgameiro-suites'
+depends=(
     'bgameiro-office'
     'bgameiro-suites-media'
 )

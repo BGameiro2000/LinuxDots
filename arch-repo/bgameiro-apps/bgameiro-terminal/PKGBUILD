@@ -9,4 +9,3 @@ license=(GNU GPLv3)
 depends=(
     'rxvt-unicode'
 )
-groups=('bgameiro-apps')

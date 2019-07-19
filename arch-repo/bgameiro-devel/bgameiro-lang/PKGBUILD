@@ -11,4 +11,3 @@ depends=(
 	'python'
 	'ghc'
 )
-groups=('bgameiro-devel')

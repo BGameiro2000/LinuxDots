@@ -1,6 +1,6 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgbase='bgameiro-eye-candy'
-pkgname=(
+pkgname='bgameiro-eye-candy'
+depends=(
     'bgameiro-font'
     'bgameiro-theme'
 )

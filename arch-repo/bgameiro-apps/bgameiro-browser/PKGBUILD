@@ -9,4 +9,3 @@ license=(GNU GPLv3)
 depends=(
     'firefox-developer-edition'
 )
-groups=('bgameiro-apps')

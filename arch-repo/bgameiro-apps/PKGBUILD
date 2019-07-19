@@ -1,6 +1,6 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgbase='bgameiro-apps'
-pkgname=(
+pkgname='bgameiro-apps'
+depends=(
     'bgameiro-browser'
     'bgameiro-fm'
     'bgameiro-media'

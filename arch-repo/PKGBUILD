@@ -1,12 +1,12 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgbase='bgameiro'
-pkgname=(
+pkgname='bgameiro'
+depends=(
     'bgameiro-apps'
     'bgameiro-codecs'
     'bgameiro-desktop'
     'bgameiro-devel'
     'bgameiro-games'
-    'bgameiro-eye/candy'
+    'bgameiro-eye-candy'
     'bgameiro-suites'
     'bgameiro-utils'
 )
