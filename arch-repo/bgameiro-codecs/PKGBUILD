@@ -2,7 +2,7 @@
 pkgname='bgameiro-codecs'
 pkgver=0.1
 pkgrel=1
-pkgdesc=" for BGameiro systems"
+pkgdesc="Codecs for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)

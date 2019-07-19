@@ -14,4 +14,4 @@ depends=(
     'thunar-volman'
     'tumbler'
 )
-groups='bgameiro-apps'
+groups=('bgameiro-apps')
