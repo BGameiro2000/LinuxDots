@@ -1,3 +1,2 @@
-makepkg -p PKGBUILD @ xorg
-makepkg -p PKGBUILD @ lang
-makepkg -p PKGBUILD @ office
+# Add xorg-apps
+# repo-add apps desktop devel eye-candy suites
