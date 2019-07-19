@@ -12,4 +12,4 @@ depends=(
 	'texlive-most'
 	'texlive-lang'
 )
-groups='bgameiro-suites'
+groups=('bgameiro-suites')

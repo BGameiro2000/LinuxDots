@@ -14,4 +14,4 @@ depends=(
     'rofi'
     'compton'
 )
-groups='bgameiro-desktop'
+groups=('bgameiro-desktop')

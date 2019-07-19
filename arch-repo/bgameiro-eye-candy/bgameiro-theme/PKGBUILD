@@ -10,4 +10,4 @@ depends=(
     'materia-kde'
     'materia-gtk-theme'
 )
-groups='bgameiro-eye-candy'
+groups=('bgameiro-eye-candy')

@@ -1,0 +1,3 @@
+makepkg -p PKGBUILD @ xorg
+makepkg -p PKGBUILD @ lang
+makepkg -p PKGBUILD @ office

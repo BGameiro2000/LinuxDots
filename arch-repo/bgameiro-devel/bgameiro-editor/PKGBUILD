@@ -2,7 +2,7 @@
 pkgname='bgameiro-editor'
 pkgver=0.1
 pkgrel=1
-pkgdesc="Editor for BGameiro systems"
+pkgdesc="Editors and IDEs for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
@@ -10,4 +10,4 @@ depends=(
     'code'
 	'jupyterlab'
 )
-groups='bgameiro-devel'
+groups=('bgameiro-devel')

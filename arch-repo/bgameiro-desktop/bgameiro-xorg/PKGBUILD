@@ -2,12 +2,12 @@
 pkgname='bgameiro-xorg'
 pkgver=0.1
 pkgrel=1
-pkgdesc="X packages for BGameiro systems"
+pkgdesc="X.org packages for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
 depends=(
-    'xorg'
+    'xorg-server'
     'xorg-apps'
     'xorg-fonts'
     'xorg-xinit'
@@ -18,4 +18,4 @@ depends=(
     'vulkan-icd-loader'
     'lib32-vulkan-icd-loader'
 )
-groups='bgameiro-desktop'
+groups=('bgameiro-desktop')
