@@ -1,8 +1,12 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgname='bgameiro-eye-candy'
 depends=(
-    'bgameiro-font'
-    'bgameiro-theme'
+    'ttf-liberation'
+	'rofimoji'
+    'font-mathematica'
+
+    'materia-kde'
+    'materia-gtk-theme'
 )
 pkgver=0.1
 pkgrel=1

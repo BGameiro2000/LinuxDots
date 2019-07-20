@@ -1,14 +1,9 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
-pkgname='bgameiro-office'
-pkgver=0.1
-pkgrel=1
-pkgdesc="Office suite for BGameiro systems"
-arch=(any)
-url="https://github.com/bgameiro/dotfiles/arch-repo"
-license=(GNU GPLv3)
+pkgname='bgameiro-suites'
 depends=(
     'libreoffice-fresh'
 	'libreoffice-fresh-pt'
+
 	'texlive-bibtexextra'
 	'texlive-core'
 	'texlive-fontsextra'
@@ -21,4 +16,19 @@ depends=(
 	'texlive-pstricks'
 	'texlive-publishers'
 	'texlive-science'
+
+    'krita'
+	'inkscape'
+	'shotcut'
+
+	'lmms'
+	'mixxx'
+
+    'blender'
 )
+pkgver=0.1
+pkgrel=1
+pkgdesc="Software suites for BGameiro systems"
+arch=(any)
+url="https://github.com/bgameiro/dotfiles/arch-repo"
+license=(GNU GPLv3)

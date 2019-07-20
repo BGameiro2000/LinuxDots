@@ -1,0 +1,39 @@
+# Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
+pkgname='bgameiro-desktop'
+depends=(
+    'xf86-video-amdgpu'
+    'vulkan-radeon'
+    'amd-ucode'
+
+    'intel-ucode'
+    'xf86-video-intel'
+    'vulkan-intel'
+
+    'xorg-server'
+    'xorg-font-util'
+    'xorg-fonts-encodings'
+    'xorg-xinit'
+    'mesa'
+    'xf86-input-libinput'
+    'xf86-video-vesa'
+    'lib32-mesa'
+    'vulkan-icd-loader'
+    'lib32-vulkan-icd-loader'
+
+    'lightdm'
+    'light-locker'
+    'numlockx'
+
+    'awesome'
+    'vicious'
+    'dex'
+    'rlwrap'
+    'rofi'
+    'compton'
+)
+pkgver=0.1
+pkgrel=1
+pkgdesc="Desktop and basic packages for BGameiro systems"
+arch=(any)
+url="https://github.com/bgameiro/dotfiles/arch-repo"
+license=(GNU GPLv3)
