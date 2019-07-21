@@ -34,13 +34,15 @@ All configurations related to my systems.
 8.  My terminal configurations.
 [<img align="right" src="https://img.shields.io/badge/Terminal-urxvt + fish-blue.svg" />]()
 <br><br>
-9.  Any custom script that I may have.
+9.  My pacman.conf.
+<br><br>
+10.  Any custom script that I may have.
 
 ## How is this repo organized?
 
 There are 4 directories in this repo:
 *   Arch-repo
-    *   Includes my custom pacman repository, the AUR packages that I use and an example of a PKGBUILD.
+    *   Includes my custom pacman repository, the AUR packages that I use, an example of a PKGBUILD and my pacman.conf.
 *   Configs
     *   Includes all the configurations for boot loaders, display servers, display managers, window managers and other applications.
 *   Media
