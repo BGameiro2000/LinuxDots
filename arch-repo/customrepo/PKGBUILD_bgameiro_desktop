@@ -30,8 +30,15 @@ depends=(
     'rlwrap'
     'rofi'
     'compton'
+
+    'ttf-liberation'
+	'rofimoji'
+    'font-mathematica'
+
+    'materia-kde'
+    'materia-gtk-theme'
 )
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="Desktop and basic packages for BGameiro systems"
 arch=(any)
