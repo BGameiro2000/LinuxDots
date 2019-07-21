@@ -19,3 +19,5 @@ src/
 repo/
 *.log
 root/
+
+*.tar.gz
