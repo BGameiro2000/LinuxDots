@@ -54,7 +54,7 @@ Each directory has its own README file.
 
 ## Licenses and credit
 
-My configurations and scripts are under the GPLv3 license but the packages that I use and have listed in my repository aren't mine, have their own licenses and are owned by theri respective owners.
+My configurations and scripts are under the GPLv3 license but the packages that I use and have listed in my repository aren't mine, have their own licenses and are owned by their respective owners.
 
 Also my configurations are based on my own ideas and my workflow as well as the following r/unixporn and r/FirefoxCSS posts:
 
