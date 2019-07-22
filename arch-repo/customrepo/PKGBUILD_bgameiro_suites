@@ -1,9 +1,11 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgname='bgameiro-suites'
 depends=(
+	#Office suite
     'libreoffice-fresh'
 	'libreoffice-fresh-pt'
 
+	#LaTeX
 	'texlive-bibtexextra'
 	'texlive-core'
 	'texlive-fontsextra'
@@ -17,16 +19,19 @@ depends=(
 	'texlive-publishers'
 	'texlive-science'
 
+	#Image and video
     'krita'
 	'inkscape'
 	'shotcut'
 
+	#Music
 	'lmms'
 	'mixxx'
 
+	#3D
     'blender'
 )
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="Software suites for BGameiro systems"
 arch=(any)

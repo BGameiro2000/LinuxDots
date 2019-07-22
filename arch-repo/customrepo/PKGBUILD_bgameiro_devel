@@ -1,14 +1,17 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgname='bgameiro-devel'
 depends=(
+	#Editors
     'code'
 	'jupyterlab'
 
-
+	#Python
     'python'
 
+	#Haskell
 	'ghc'
     
+	#Dlang
 	'dcd'
 	'dfmt'
 	'dmd'
@@ -22,7 +25,7 @@ depends=(
 	'liblphobos'
 	'libphobos'
 )
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="Development packages for BGameiro systems"
 arch=(any)

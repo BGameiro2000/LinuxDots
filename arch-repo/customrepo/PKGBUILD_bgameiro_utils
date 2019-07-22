@@ -1,25 +1,38 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgname='bgameiro-utils'
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="Utilities for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
 depends=(
+	#Sensors
 	'lm_sensors'
+
+	#Shell
 	'fish'
+
+	#Protocols
 	'git'
 	'openssh'
 	'openssl'
 	'rsync'
+
+	#Commands
 	'lshw'
+
+	#Archive
 	'zip'
 	'unzip'
 	'unrar'
+
+	#Capture and display
     'scrot'
     'obs-studio'
 	'mupdf'
+
+	#Audio
 	'alsa-firmware'
 	'alsa-oss'
 	'alsa-utils'

@@ -1,8 +1,10 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgname='bgameiro-apps'
 depends=(
+    #Browser
     'firefox-developer-edition'
 
+    #File manager
     'thunar'
     'gvfs'
     'thunar-archive-plugin'
@@ -10,14 +12,15 @@ depends=(
     'thunar-volman'
     'tumbler'
 
+    #Media
     'mpd'
 	'vlc'
-	'ncmpcpp'
 	'cantata'
 
+    #Terminal
     'rxvt-unicode'
 )
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="Apps for BGameiro systems"
 arch=(any)

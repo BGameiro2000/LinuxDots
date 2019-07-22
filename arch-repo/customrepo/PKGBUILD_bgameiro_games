@@ -1,12 +1,15 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgname='bgameiro-games'
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="Game related applications for BGameiro systems"
 arch=(any)
 url="https://github.com/bgameiro/dotfiles/arch-repo"
 license=(GNU GPLv3)
 depends=(
+    #Steam
     'steam'
+
+    #Emulators
 	'desmume'
 )
