@@ -83,6 +83,7 @@ depends=(
     'materia-kde'
     'materia-gtk-theme'
     'papirus-icon-theme'
+    #python-pywal
 )
 pkgver=0.4
 pkgrel=1

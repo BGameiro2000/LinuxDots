@@ -19,6 +19,7 @@ PACKAGES+="
     captain-frank-cursors-git
     lightdm-webkit-theme-aether
 "
+    #oomox
 
 #Devel
 PACKAGES+="

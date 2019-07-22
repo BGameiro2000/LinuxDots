@@ -32,6 +32,7 @@ depends=(
     'scrot'
     'obs-studio'
 	'mupdf'
+	'feh'
 
 	#Audio
 	'alsa-firmware'

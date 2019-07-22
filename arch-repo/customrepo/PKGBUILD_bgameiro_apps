@@ -15,6 +15,7 @@ depends=(
     #Media
     'mpd'
 	'vlc'
+    #'ncmpcpp'
 	'cantata'
 
     #Terminal
