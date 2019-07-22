@@ -14,31 +14,39 @@ All configurations related to my systems.
 2.  AUR packages that I use and a script to install them with yay.
 <br><br>
 1.  The wallpapers that I use.
-    1.  Desktop: 3000×1920
-    2.  Laptop: 1920×1080
+    *  Desktop: 3000×1920
+    *  Laptop: 1920×1080
 <br><br>
 4.  Boot loader configurations.
-[<img align="right" src="https://img.shields.io/badge/Boot loader-systemd boot-blue.svg" />]()
+[<img align="right" src="https://img.shields.io/badge/Boot loader-systemd boot-blue.svg" />](https://wiki.archlinux.org/index.php/Systemd-boot)
 <br><br>
 5.  Display server configurations.
-[<img align="right" src="https://img.shields.io/badge/Display server-Xorg-blue.svg" />]()
+[<img align="right" src="https://img.shields.io/badge/Display server-Xorg-blue.svg" />](https://wiki.archlinux.org/index.php/Xorg)
 <br><br>
 6.  Display manager configurations.
-[<img align="right" src="https://img.shields.io/badge/Display manager-LightDM-blue.svg" />]()
+[<img align="right" src="https://img.shields.io/badge/Display manager-LightDM-blue.svg" />](https://wiki.archlinux.org/index.php/LightDM)
+    *   LightDM
+    *   [Aether Theme](https://github.com/NoiSek/Aether)
 <br><br>
 7.  Window manager configurations.
-[<img align="right" src="https://img.shields.io/badge/Window manager-AwesomeWM-blue.svg" />]()
+[<img align="right" src="https://img.shields.io/badge/Window manager-AwesomeWM-blue.svg" />](https://wiki.archlinux.org/index.php/Awesome)
 <br><br>
 8.  Terminal configurations.
-[<img align="right" src="https://img.shields.io/badge/Terminal-urxvt + fish-blue.svg" />]()
+[<img align="right" src="https://img.shields.io/badge/Terminal-Urxvt-blue.svg" />](https://wiki.archlinux.org/index.php/Rxvt-unicode)
+    *   Urxvt
+    *   Fish
 <br><br>
 9.  Music configurations.
-[<img align="right" src="https://img.shields.io/badge/Music-MPD+ Cantata-blue.svg" />]()
+[<img align="right" src="https://img.shields.io/badge/Music-Cantata-blue.svg" />](https://wiki.archlinux.org/index.php/Music_Player_Daemon#Graphical)
+    *   MPD
+    *   Cantata
 <br><br>
-10. Browser configurations.
-[<img align="right" src="https://img.shields.io/badge/Browser-Firefox Developer Edition + FirefoxCSS.svg" />]()
+10.  Browser configurations.
+[<img align="right" src="https://img.shields.io/badge/Browser-Firefox-blue.svg" />](https://wiki.archlinux.org/index.php/Firefox)
+     *   Firefox Developer Edition
+     *   FirefoxCSS
 <br><br>
-11. Gaming configurations.
+1.  Gaming configurations.
 <br><br>
 12. Any custom script that I may have.
 
