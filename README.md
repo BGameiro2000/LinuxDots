@@ -1,6 +1,6 @@
 # BGameiro's dotfiles
 
-<img align="right" width="100" height="auto" src="dotfiles-logo.png">
+<img style="filter:hue-rotate(0deg)" align="right" width="100" height="auto" src="dotfiles-logo.png">
 
 All configurations related to my systems.
 
@@ -13,9 +13,9 @@ All configurations related to my systems.
 <br><br>
 2.  AUR packages that I use and a script to install them with yay.
 <br><br>
-1.  The wallpapers that I use.
-    *  Desktop: 3000×1920
-    *  Laptop: 1920×1080
+3.  The wallpapers that I use.
+     *  Desktop: 3000×1920
+     *  Laptop: 1920×1080
 <br><br>
 4.  Boot loader configurations.
 [<img align="right" src="https://img.shields.io/badge/Boot loader-systemd boot-blue.svg" />](https://wiki.archlinux.org/index.php/Systemd-boot)
@@ -25,44 +25,46 @@ All configurations related to my systems.
 <br><br>
 6.  Display manager configurations.
 [<img align="right" src="https://img.shields.io/badge/Display manager-LightDM-blue.svg" />](https://wiki.archlinux.org/index.php/LightDM)
-    *   LightDM
-    *   [Aether Theme](https://github.com/NoiSek/Aether)
+     *   LightDM
+     *   [Aether Theme](https://github.com/NoiSek/Aether)
 <br><br>
 7.  Window manager configurations.
 [<img align="right" src="https://img.shields.io/badge/Window manager-AwesomeWM-blue.svg" />](https://wiki.archlinux.org/index.php/Awesome)
 <br><br>
 8.  Terminal configurations.
 [<img align="right" src="https://img.shields.io/badge/Terminal-Urxvt-blue.svg" />](https://wiki.archlinux.org/index.php/Rxvt-unicode)
-    *   Urxvt
-    *   Fish
+     *   Urxvt
+     *   Fish
 <br><br>
 9.  Music configurations.
 [<img align="right" src="https://img.shields.io/badge/Music-Cantata-blue.svg" />](https://wiki.archlinux.org/index.php/Music_Player_Daemon#Graphical)
-    *   MPD
-    *   Cantata
+     *   MPD
+     *   Cantata
 <br><br>
 10.  Browser configurations.
 [<img align="right" src="https://img.shields.io/badge/Browser-Firefox-blue.svg" />](https://wiki.archlinux.org/index.php/Firefox)
      *   Firefox Developer Edition
      *   FirefoxCSS
 <br><br>
-1.  Gaming configurations.
+11.  Gaming configurations.
+     *   Steam + Proton
+     *   [GameMode](https://github.com/FeralInteractive/gamemode)
 <br><br>
-12. Any custom script that I may have.
+1.   Any custom script that I may have.
 
 ## How is this repo organized?
 
 There are 4 directories in this repo:
 *   Arch-repo
-    *   Includes my custom pacman repository, the AUR packages that I use, an example of a PKGBUILD and my pacman.conf.
+     *   Includes my custom pacman repository, the AUR packages that I use, an example of a PKGBUILD and my pacman.conf.
 *   Configs
-    *   Includes all the configurations for boot loaders, display servers, display managers, window managers and other applications.
+     *   Includes all the configurations for boot loaders, display servers, display managers, window managers and other applications.
 *   Media
-    *   Includes my wallpapers and other media.
+     *   Includes my wallpapers and other media.
 *   Scripts
-    *   Includes the scripts that I use.
+     *   Includes the scripts that I use.
 
-Each directory has its own README file.
+Each directory may have its own README file.
 
 ## Licenses and credit
 
