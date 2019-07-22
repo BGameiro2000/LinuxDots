@@ -1,6 +1,6 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgname='bgameiro-utils'
-pkgver=0.2
+pkgver=0.3
 pkgrel=1
 pkgdesc="Utilities for BGameiro systems"
 arch=(any)
@@ -19,7 +19,8 @@ depends=(
 	'openssl'
 	'rsync'
 
-	#Commands
+	#Commands and maintenance
+	'fwupd'
 	'lshw'
 
 	#Archive
