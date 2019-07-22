@@ -8,11 +8,9 @@ All configuration files related to my systems and their respective directories.
 
 *   X
     *   .Xresources (&#8669; /home/$USERNAME/.Xresources)
-<br><br>
 *   boot
     *   loader (&#8669; /boot/loader/)
         *   entries
         *   loader.conf
-<br><br>
 *   lightdm
     *   lightdm-webkit-theme-bgameiro (&#8669; /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-bgameiro)
