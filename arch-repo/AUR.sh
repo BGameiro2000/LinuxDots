@@ -1,6 +1,6 @@
-#!/usr/bin/bash
+#!/usr/bin/sh
 
-# Initialization of packages list
+# Initialization of package list
 PACKAGES=""
 
 #Apps
@@ -42,4 +42,5 @@ PACKAGES+="
 PACKAGES+="
 "
 
-eval yay -S $PACKAGES
+#Check if yay is installed, if not asked if user wants to install it.
+yay -V | grep -q 'yay v' && echo -e yay -S $PACKAGES && yay -S $PACKAGES
