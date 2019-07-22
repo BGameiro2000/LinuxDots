@@ -11,32 +11,36 @@ All configurations related to my systems.
 1.  Custom pacman repository with all Arch Official Packages that I have installed.
 [<img align="right" src="https://img.shields.io/github/release/BGameiro76/dotfiles.svg" />](https://github.com/BGameiro76/dotfiles/releases/latest)
 <br><br>
-2.  AUR packages that I use.
-    1.  List of the packages I use.
-    2.  Script to install the packages with yay. (To Do)
+2.  AUR packages that I use and a script to install them with yay.
 <br><br>
-3.  The wallpapers that I use.
+1.  The wallpapers that I use.
     1.  Desktop: 3000×1920
     2.  Laptop: 1920×1080
 <br><br>
-4.  My boot loader configurations.
+4.  Boot loader configurations.
 [<img align="right" src="https://img.shields.io/badge/Boot loader-systemd boot-blue.svg" />]()
 <br><br>
-5.  My display server configurations.
+5.  Display server configurations.
 [<img align="right" src="https://img.shields.io/badge/Display server-Xorg-blue.svg" />]()
 <br><br>
-6.  My display manager configurations.
+6.  Display manager configurations.
 [<img align="right" src="https://img.shields.io/badge/Display manager-LightDM-blue.svg" />]()
 <br><br>
-7.  My window manager configurations.
+7.  Window manager configurations.
 [<img align="right" src="https://img.shields.io/badge/Window manager-AwesomeWM-blue.svg" />]()
 <br><br>
-8.  My terminal configurations.
+8.  Terminal configurations.
 [<img align="right" src="https://img.shields.io/badge/Terminal-urxvt + fish-blue.svg" />]()
 <br><br>
-9.  My pacman.conf.
+9.  Music configurations.
+[<img align="right" src="https://img.shields.io/badge/Music-MPD+ Cantata-blue.svg" />]()
 <br><br>
-10.  Any custom script that I may have.
+10. Browser configurations.
+[<img align="right" src="https://img.shields.io/badge/Browser-Firefox Developer Edition + FirefoxCSS.svg" />]()
+<br><br>
+11. Gaming configurations.
+<br><br>
+12. Any custom script that I may have.
 
 ## How is this repo organized?
 
