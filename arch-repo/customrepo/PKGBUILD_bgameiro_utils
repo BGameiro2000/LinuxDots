@@ -1,6 +1,6 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgname='bgameiro-utils'
-pkgver=0.4
+pkgver=0.5
 pkgrel=1
 pkgdesc="Utilities for BGameiro systems"
 arch=(any)
@@ -41,7 +41,4 @@ depends=(
 	'pulseaudio'
 	'pulseaudio-equalizer'
 	'pulseaudio-alsa'
-	'pulseaudio-equalizer-ladspa'
-	'jack'
-	'pulseaudio-jack'
 )
