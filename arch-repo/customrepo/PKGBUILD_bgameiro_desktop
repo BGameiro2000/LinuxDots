@@ -72,7 +72,6 @@ depends=(
     'dex'
     'rlwrap'
     'rofi'
-    'compton'
 
     #Fonts
     'ttf-liberation'
@@ -85,7 +84,7 @@ depends=(
     'papirus-icon-theme'
     #python-pywal
 )
-pkgver=0.4
+pkgver=0.5
 pkgrel=1
 pkgdesc="Desktop and basic packages for BGameiro systems"
 arch=(any)
