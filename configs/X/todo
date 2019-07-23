@@ -1,0 +1,2 @@
+setxkbmap pt
+xinput --map-to-output 'Meflas LGD AIT Touch Controller' DisplayPort1
