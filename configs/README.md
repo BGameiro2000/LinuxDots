@@ -8,6 +8,7 @@ All configuration files related to my systems and their respective directories.
 
 *   X
     *   .Xresources (&#8669; /home/$USERNAME/.Xresources)
+    *   .xprofile (&#8669; /home/$USERNAME/.xprofile)
 *   boot
     *   loader (&#8669; /boot/loader/)
         *   entries
