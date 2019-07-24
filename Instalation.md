@@ -38,7 +38,24 @@ So if you have any problem replicating my system, just made the change for Linux
     6.  Initramfs
     7.  Root password
     8.  Boot loader
+
 ##  Configuration
+
+1.  Create a new user
+    1.  Download your shell
+    2.  Create the user
+    3.  Set the password
+    4.  Create the Wheel group
+2.  Install Xorg
+3.  Install the graphics drivers
+4.  Install the display manager
+    1.  Install the LightDM
+    2.  Enable it
+    3.  Download and add numlockx
+    4.  Select the correct greeter
+5. Install the Window Manager
+6. Install packages
+7. Set configurations
 
 ***
 ***
