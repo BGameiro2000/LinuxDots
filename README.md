@@ -50,7 +50,9 @@ All configurations related to my systems.
      *   Steam + Proton
      *   [GameMode](https://github.com/FeralInteractive/gamemode)
 <br><br>
-1.   Any custom script that I may have.
+12.   Any custom script that I may have.
+<br><br>
+13.   Arch Wiki based installation guide.
 
 ## How is this repo organized?
 
@@ -65,6 +67,8 @@ There are 4 directories in this repo:
      *   Includes the scripts that I use.
 
 Each directory may have its own README file.
+
+There is also an [installation and configuration guide](Installation.md) based on Arch Wiki. This guide also includes some of my scripts.
 
 ## Licenses and credit
 
