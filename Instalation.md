@@ -55,7 +55,7 @@ So if you have any problem replicating my system, just made the change for Linux
     4.  Select the correct greeter
 5. Install the Window Manager
 6. Install packages
-7. Set configurations
+7. Set configurations according to my dotfiles
 
 ***
 ***
