@@ -81,17 +81,17 @@ Go to archlinux.org/download and download the latest .iso.
 
 It is recommended that you download using Torrent due to the possibility of having a corrupt file. If you use direct download it is recommended that you verify the checksums by running the commands:
 
-<pre><code>
+<pre>
 md5sum archlinux-<i>version</i>-x86_64.iso
 
 sha256sum archlinux-<i>version</i>x86_64.iso
-</pre></code>
+</pre>
 
 You can also verify the integraty of your .iso once you boot it by running:
 
-<pre><code>
+<pre>
 gpg --keyserver-options auto-key-retreive --verify archlinux-<i>version</i>-x86_64.iso.sig
-</pre></code>
+</pre>
 
 Next burn the .iso to your flash drive. There are several ways of doing this, I use [Etcher](balena.io/etcher) since it's free and cross-platform.
 
@@ -107,15 +107,15 @@ Default keyboard layout is US.
 
 Available layouts can be listed with:
 
-<pre><code>
+<pre>
 ls /usr/share/kbd/keymaps/**/*.map.gz
-</pre></code>
+</pre>
 
 To select a keyboard layout run:
 
-<pre><code>
-loadkeys _layout_
-</pre></code>
+<pre>
+loadkeys <i>layout</i>
+</pre>
 
 Example for portuguese layout:
 
@@ -143,17 +143,17 @@ You will need 2 basic partitions: EFI and root.
 
 Once you have one idea of what your partitions may look like you can run the following command to list your partitions:
 
-```
+<pre>
 fdisk -l
-```
+</pre>
 
 To create the partitions you can use cfdisk as it's more intuitive:
 
-```
+<pre>
 cfdisk /dev/sdX
-```
+</pre>
 
-Where X is the letter of your disk (see ```fdisk -l```).
+Where X is the letter of your disk (see <code>fdisk -l</code>).
 
 Wipe all partitions and create the ones you want.
 
@@ -167,22 +167,22 @@ Now that you have the partitions you have to format them. You can use the follow
 
 Swap:
 
-```
-mkswap /dev/sdXY
-swapon /dev/sdXY
-```
+<pre>
+mkswap /dev/sd<i>XY</i>
+swapon /dev/sd<i>XY</i>
+</pre>
 
 EFI partition:
 
-```
-mkfs.fat -F 32 /dev/sdXY
-```
+<pre>
+mkfs.fat -F 32 /dev/sd<i>XY</i>
+</pre>
 
 Any other partition:
 
-```
-mkfs.ext4 /dev/sdXY
-```
+<pre>
+mkfs.ext4 /dev/sd<i>XY</i>
+</pre>
 
 ####    Name the partitions
 
@@ -190,21 +190,21 @@ To make everything more easier lets name our partitions by giving them labels:
 
 Swap:
 
-```
-swaplabel -L "_new label_" /dev/sdXY
-```
+<pre>
+swaplabel -L "<i>new label</i>" /dev/sd<i>XY</i>
+</pre>
 
 Fat32:
 
-```
-fatlabel /dev/sdXY "_new label_"
-```
+<pre>
+fatlabel /dev/sd<i>XY</i> "<i>new label</i>"
+</pre>
 
 Ext4:
 
-```
-e2label /dev/sdXY "_new label_"
-```
+<pre>
+e2label /dev/sd<i>XY</i> "<i>new label</i>"
+</pre>
 
 ####    Mount the file systems
 
@@ -212,21 +212,21 @@ You now have to mount the partitions on the root partition /mnt:
 
 EFI partition:
 
-```
-mount /dev/sdXY /mnt/efi
-```
+<pre>
+mount /dev/sd<i>XY</i> /mnt/efi
+</pre>
 
 Root partition:
 
-```
-mount /dev/sdXY /mnt
-```
+<pre>
+mount /dev/sd<i>XY</i> /mnt
+</pre>
 
 Home partition:
 
-```
-mount /dev/sdXY /mnt/home
-```
+<pre>
+mount /dev/sd<i>XY</i> /mnt/home
+</pre>
 
 > If you created a partition for a specific user, for games or for music **don't mount it yet**.
 
@@ -234,13 +234,13 @@ mount /dev/sdXY /mnt/home
 
 ####    Install the base
 
-You may want to update you mirrors before this. But I don't. You can run the [this]() this script to update and rank them.
+You may want to update you mirrors before this. But I don't. You can run [this]() script to update and rank them.
 
-Now comes the part when you install the basic packages for your system. The only required package is ```base``` but I recommend installing the ```base-devel``` package. Run:
+Now comes the part when you install the basic packages for your system. The only required package is <code>base</code> but I recommend installing the <code>base-devel</code> package. Run:
 
-```
+<pre>
 pacstrap /mnt base
-```
+</pre>
 
 ### Basic configuration
 
