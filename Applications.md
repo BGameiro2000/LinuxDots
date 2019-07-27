@@ -1,4 +1,4 @@
-# BGameiro's Package Recommendation
+# BGameiro's Recommended Applications
 
 This file has my recommendations on what packages to use.
 
@@ -10,10 +10,10 @@ This includes all software from free and open source to commercial, from simple 
 ***
 ***
 
-# Packages
+# Applications
 
-- [BGameiro's Package Recommendation](#bgameiros-package-recommendation)
-- [Packages](#rackages)
+-- [BGameiro's Recommended Applications](#bgameiros-recommended-applications)
+- [Applications](#applications)
   - [Basic system utilities](#basic-system-utilities)
     - [Bootloader](#bootloader)
     - [Display server](#display-server)
