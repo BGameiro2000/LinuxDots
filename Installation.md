@@ -14,7 +14,7 @@ So if you have any problem replicating my system, just made the change for Linux
 *   Have an internet connection
 *   Use FAT32 for the Boot partition and EXT4 for the others
 *   Don't want swap
-*   Have a x86_64 system.
+*   x86_64 system
 
 ***
 ***
