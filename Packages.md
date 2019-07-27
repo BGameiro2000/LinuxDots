@@ -12,8 +12,8 @@ This includes all software from free and open source to commercial, from simple 
 
 ### Packages
 
-1.  [Basic system utilities](#Basic system utilities)
-    1.  Bootloader
+1.  [Basic system utilities](#basic-system-utilities)
+    1.  [Bootloader](bootloader)
     2.  Display server
     3.  Display manager
     4.  Window managers
