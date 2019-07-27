@@ -17,7 +17,7 @@ This includes all software from free and open source to commercial, from simple 
     4.  Window managers
 2.  Other system utilities
     1.  Shell
-    2.  Sync
+    2.  Sync files
     3.  Screenshot utilities
     4.  Screen recorder
     5.  PDF viewer
@@ -33,16 +33,23 @@ This includes all software from free and open source to commercial, from simple 
     2.  Image creation and edition
     3.  Video edition
     4.  Music creation and DJ software
-    5.  3D modelation
+    5.  3D
         1.  Animation
         2.  Modelation
 5.  Game related software
 
 ***
-
-### Selfhosted
-
-1.
-
 ***
-***
+
+##      Basic system utilities
+
+###     Bootloader
+###     Display server
+###     Display manager
+###     Window manager
+
+##      Other system utilities
+
+###     Shell
+###     Sync files
+###     
