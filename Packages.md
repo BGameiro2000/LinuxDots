@@ -44,7 +44,15 @@ This includes all software from free and open source to commercial, from simple 
 ##      Basic system utilities
 
 ###     Bootloader
+
+I prefer [Systmd-boot](). It supports multiple OS, is fast and is already installed.
+
 ###     Display server
+
+You have 2 main choices: [Xorg]() and [Wayland](). 
+
+Xorg is the old standard and many applications and WM/DE need it. Wayland is the new alternative with more functionalities but isn't as mature. I use Xorg for now.
+
 ###     Display manager
 ###     Window manager
 
