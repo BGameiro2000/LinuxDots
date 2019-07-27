@@ -21,7 +21,7 @@ So if you have any problem replicating my system, just made the change for Linux
 
 ##  Installation
 
-1.  Pre-installation
+1.  [Pre-installation]()
     1.  Prepare the live environment
     2.  Boot the live environment
     3.  Set the keyboard layout
@@ -30,9 +30,9 @@ So if you have any problem replicating my system, just made the change for Linux
     6.  Format the partitions
     7.  Name the partiotions
     8.  Mounts the file systems
-2.  Installation
+2.  [Installation]()
     1.  Install the base and base-devel package
-3.  Basic configuration
+3.  [Basic configuration]()
     1.  Fstab
     2.  Chroot
     3.  Time zone
@@ -60,6 +60,14 @@ So if you have any problem replicating my system, just made the change for Linux
 6. Install packages
 7. Set configurations according to my dotfiles
 
+##  Scripts, packages and automation
+
+1.  Git repo for your dotfiles
+    1.  Create
+    2.  Structure
+2.  Install script
+3.  Meta packages
+
 ***
 ***
 
@@ -73,17 +81,17 @@ Go to archlinux.org/download and download the latest .iso.
 
 It is recommended that you download using Torrent due to the possibility of having a corrupt file. If you use direct download it is recommended that you verify the checksums by running the commands:
 
-```shell
-md5sum archlinux-_version_-x86_64.iso
+<pre><code>
+md5sum archlinux-<i>version</i>-x86_64.iso
 
-sha256sum archlinux-_version_-x86_64.iso
-```
+sha256sum archlinux-<i>version</i>x86_64.iso
+</pre></code>
 
 You can also verify the integraty of your .iso once you boot it by running:
 
-```
-gpg --keyserver-options auto-key-retreive --verify archlinux-_version_-x86_64.iso.sig
-```
+<pre><code>
+gpg --keyserver-options auto-key-retreive --verify archlinux-<i>version</i>-x86_64.iso.sig
+</pre></code>
 
 Next burn the .iso to your flash drive. There are several ways of doing this, I use [Etcher](balena.io/etcher) since it's free and cross-platform.
 
@@ -99,21 +107,21 @@ Default keyboard layout is US.
 
 Available layouts can be listed with:
 
-```
+<pre><code>
 ls /usr/share/kbd/keymaps/**/*.map.gz
-```
+</pre></code>
 
 To select a keyboard layout run:
 
-```
+<pre><code>
 loadkeys _layout_
-```
+</pre></code>
 
 Example for portuguese layout:
 
-```
+<pre>
 loadkeys pt-latin9
-```
+</pre>
 
 >**This only changes the layout for the live environment until the next boot.**
 
@@ -121,9 +129,9 @@ loadkeys pt-latin9
 
 Just run:
 
-```
+<pre>
 timedatectl set-ntp true
-```
+</pre>
 
 ####    Partition the disks
 
