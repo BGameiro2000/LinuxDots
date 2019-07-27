@@ -239,8 +239,14 @@ You may want to update you mirrors before this. But I don't. You can run [this](
 Now comes the part when you install the basic packages for your system. The only required package is <code>base</code> but I recommend installing the <code>base-devel</code> package. Run:
 
 <pre>
-pacstrap /mnt base
+pacstrap /mnt base base-devel
 </pre>
+
+> You can install more packages besides <code>base</code> and <code>base-devel</code>. For example, you can install the zen kernel with:
+> <pre>
+> pacstrap /mnt base base-devel linux-zen linux-zen-headers --ignore linux linux-headers
+> </pre>
+> **You only need to install the <code>base</code> package and <code>base-devel</code> if you're using AUR.**
 
 ### Basic configuration
 
