@@ -12,37 +12,39 @@ This includes all software from free and open source to commercial, from simple 
 
 ### Packages
 
-1.  [Basic system utilities](#basic-system-utilities)
-    1.  [Bootloader](bootloader)
-    2.  Display server
-    3.  Display manager
-    4.  Window managers
-2.  Other system utilities
-    1.  Shell
-    2.  Sync files
-    3.  Screenshot utilities
-    4.  Screen recorder
-    5.  PDF viewer
-3.  Basic applications
-    1.  Browser
-    2.  File manager
-    3.  Music player
-    4.  Video player
-    5.  Terminal
-    6.  Code editors
-4.  Software suites and creation
-    1.  Office suite
-    2.  Image creation and edition
-        1.  Vector images
-        2.  Bitmap images
-    3.  Video editing
-    4.  Music creation and DJ software
-        1.  DAW
-        2.  DJ
-    5.  3D
-        1.  Animation
-        2.  Modelation
-5.  Game related software
+- [BGameiro's Package Recommendation](#BGameiros-Package-Recommendation)
+    - [Packages](#Packages)
+  - [Basic system utilities](#Basic-system-utilities)
+    - [Bootloader](#Bootloader)
+    - [Display server](#Display-server)
+    - [Display manager](#Display-manager)
+    - [Window manager](#Window-manager)
+  - [Other system utilities](#Other-system-utilities)
+    - [Shell](#Shell)
+    - [Sync files](#Sync-files)
+    - [Screenshot utilities](#Screenshot-utilities)
+    - [Screen recorder](#Screen-recorder)
+    - [PDF viewer](#PDF-viewer)
+  - [Basic applications](#Basic-applications)
+    - [Browser](#Browser)
+    - [File manager](#File-manager)
+    - [Music player](#Music-player)
+    - [Video player](#Video-player)
+    - [Terminal](#Terminal)
+    - [Code editors](#Code-editors)
+  - [Software suites and creation](#Software-suites-and-creation)
+    - [Office suite](#Office-suite)
+    - [Image creation and edition](#Image-creation-and-edition)
+      - [Vector images](#Vector-images)
+      - [Bitmap images](#Bitmap-images)
+    - [Video editing](#Video-editing)
+    - [Music creation and DJ software](#Music-creation-and-DJ-software)
+      - [Digital Audio Workstation](#Digital-Audio-Workstation)
+      - [DJ](#DJ)
+    - [3D](#3D)
+      - [Animation](#Animation)
+      - [Modelation](#Modelation)
+  - [Game related software](#Game-related-software)
 
 ***
 ***
@@ -71,7 +73,7 @@ I recommend using [AwesomeWM](), a modern, fast and capable Window Manager that 
 
 ###     Shell
 
-*   [Fish]().
+*   [Fish]()
 
 ###     Sync files
 
