@@ -8,6 +8,8 @@ This includes all software from free and open source to commercial, from simple 
 
 ***
 ***
+***
+
 ### Packages
 
 1.  Basic system utilities
@@ -31,8 +33,12 @@ This includes all software from free and open source to commercial, from simple 
 4.  Software suites and creation
     1.  Office suite
     2.  Image creation and edition
-    3.  Video edition
+        1.  Vector images
+        2.  Bitmap images
+    3.  Video editing
     4.  Music creation and DJ software
+        1.  DAW
+        2.  DJ
     5.  3D
         1.  Animation
         2.  Modelation
@@ -60,4 +66,8 @@ Xorg is the old standard and many applications and WM/DE need it. Wayland is the
 
 ###     Shell
 ###     Sync files
-###     
+###     Screenshot utilities
+###     Screen recorder
+###     PDF viewer
+
+##      Basic applications
