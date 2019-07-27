@@ -53,125 +53,132 @@ This includes all software from free and open source to commercial, from simple 
 
 ###     Bootloader
 
-I prefer [Systmd-boot](). It supports multiple OS, is fast and is already installed.
+I prefer [Systmd-boot](https://wiki.archlinux.org/index.php/Systemd-boot). It supports multiple OS, is fast and is already installed.
 
 ###     Display server
 
-You have 2 main choices: [Xorg]() and [Wayland](). 
+You have 2 main choices: [Xorg](https://wiki.archlinux.org/index.php/Xorg) and [Wayland](https://wiki.archlinux.org/index.php/Wayland). 
 
 Xorg is the old standard and many applications and WM/DE need it. Wayland is the new alternative with more functionalities but isn't as mature. I use Xorg for now. Also Wayland doesn't work with nvidia.
 
 ###     Display manager
 
-After giving several display managers a try I ended up using [LightDM]() with [WebKit 2]() due to its support of several Window Managers and Desktop Environments and how easy it is to customize with HTML/CSS/JS. It can also be used as a lock screen.
+After giving several display managers a try I ended up using [LightDM](https://wiki.archlinux.org/index.php/LightDM) with [WebKit 2](https://github.com/topics/lightdm-webkit2-greeter) due to its support of several Window Managers and Desktop Environments and how easy it is to customize with HTML/CSS/JS. It can also be used as a lock screen.
 
 ###     Window manager
 
-I recommend using [AwesomeWM](), a modern, fast and capable Window Manager that can be configured with lua. For me it is the best option for productivity while looking good and modern. Here you have some [AwesomeWM rice]().
+I recommend using [AwesomeWM](https://wiki.archlinux.org/index.php/Awesome), a modern, fast and capable Window Manager that can be configured with lua. For me it is the best option for productivity while looking good and modern. Here you have some [AwesomeWM rice](https://www.reddit.com/r/unixporn/search/?q=%5Bawesome%5D&restrict_sr=1&sort=top).
 
 ##      Other system utilities
 
 ###     Shell
 
-*   [Fish]()
+*   [Fish](https://wiki.archlinux.org/index.php/Fish)
 
 ###     Sync files
 
-*   [Git]()
-    *   For text based files like [dotfiles]().
-*   [Rsync]()
+*   [Git](https://wiki.archlinux.org/index.php/Git)
+    *   For text based files like [dotfiles](https://wiki.archlinux.org/index.php/Dotfiles).
+*   [Rsync](https://wiki.archlinux.org/index.php/Rsync)
     *   For syncing binary files across several devices (like your music collection).
 
 ###     Screenshot utilities
 
-*   [Scrot]()
+*   [Maim](https://wiki.archlinux.org/index.php/Screen_capture)
 
 ###     Screen recorder
 
-*   [OBS studio]()
+*   [OBS studio](https://obsproject.com/)
 
 ###     PDF viewer
 
-*   [Mupdf]()
+*   [Mupdf](https://wiki.archlinux.org/index.php/MuPDF)
 
 ##      Basic applications
 
 ###     Browser
 
-*   [Firefox Developer Edition]()
+*   [Firefox Developer Edition](https://wiki.archlinux.org/index.php/Firefox)
 
 ###     File manager
 
-*   [Thunar]()
+*   [Thunar](https://wiki.archlinux.org/index.php/Thunar)
     *   Minimal
-*   [Dolphin]()
+*   [Dolphin](https://wiki.archlinux.org/index.php/Dolphin)
     *   Heavy
 
 ###     Music player
 
-*   [MPD]() + [Cantata]()
+*   [MPD](https://wiki.archlinux.org/index.php/Music_Player_Daemon) + [Cantata](https://github.com/CDrummond/cantata)
     *   GUI
-*   [MPD]() + [ncmpcpp]()
+*   [MPD](https://wiki.archlinux.org/index.php/Music_Player_Daemon) + [ncmpcpp](https://wiki.archlinux.org/index.php/Ncmpcpp)
     *   CLI
 
 ###     Video player
 
-*   [VLC]()
+*   [VLC](https://wiki.archlinux.org/index.php/VLC_media_player)
 
 ###     Terminal
 
-*   [Urxvt]()
+*   [Urxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode)
 
 ###     Code editors
 
-*   [Code]()
-*   [Jupyter Notebook]()
+*   [Code](https://wiki.archlinux.org/index.php/Visual_Studio_Code)
+*   [Jupyter Notebook](https://wiki.archlinux.org/index.php/Jupyter)
 
 ##      Software suites and creation
 
 ###     Office suite
 
-*   [LibreOffice]()
+*   [LibreOffice](https://wiki.archlinux.org/index.php/LibreOffice)
 
 ###     Image creation and edition
 
 ####    Vector images
 
-*   [Inkscape]()
+*   [Inkscape](https://wiki.archlinux.org/index.php/Inkscape)
 
 ####    Bitmap images
 
-*   [Krita]()
+*   [Krita](https://krita.org/en/)
 
 ###     Video editing
 
-*   [Shotcut]()
-*   [Kdenlive]()
-*   [DaVinci Resolve]()
+*   [Shotcut](https://shotcut.org/)
+*   [Kdenlive](https://kdenlive.org/)
+*   [DaVinci Resolve](https://www.blackmagicdesign.com/pt/products/davinciresolve)
 
 ###     Music creation and DJ software
 
 ####    Digital Audio Workstation
 
-*   [LMMS]()
+*   [LMMS](https://wiki.archlinux.org/index.php/LMMS)
 
 ####    DJ
 
-*   [Mixxx]()
+*   [Mixxx](https://www.mixxx.org/)
 
 ###     3D
 
 ####    Animation
 
-*   [Blender]()
+*   [Blender](https://wiki.archlinux.org/index.php/Blender)
 
 ####    Modelation
 
-*   [Onshape]()
+*   [Onshape](https://www.onshape.com/)
 
 ##      Game related software
 
-*   [Steam]()
-*   [GameMode]()
-*   [Desmume]()
+*   [Steam](https://wiki.archlinux.org/index.php/Steam)
+*   [GameMode](https://github.com/FeralInteractive/gamemode)
+*   [Desmume](https://desmume.org)
     *   Nintendo DS emulator
+
+***
+***
+
+This are just suggestions based on what I use/need. Your needs may differ.
+
+You may want to check [slant](https://www.slant.co/) or [Awesome list](https://github.com/topics/awesome-list) for other suggestions.
