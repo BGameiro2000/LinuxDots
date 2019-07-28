@@ -255,3 +255,13 @@ pacstrap /mnt base base-devel
 ### Basic configuration
 
 ####    Fstab
+
+First lets geneate the fstab file. The fstab file is a file that contains the information about mounted drives and partitions. You can configure the file based on UUID (with the <code>-U</code> flag) or baseed on labels (with the <code>-L</code> flag). To generate the file run:
+
+<pre>
+genfstab -L /mnt >> /mnt/etc/fstab
+</pre>
+
+> You have to run this command (<code>genfstab -L / >> /etc/fstab</code> if already in your system) after adding another mounted drive to your system in order to be persistent after boot.
+
+You can then check the file (<code>/mnt/ect/fstab</code>) in order to see if there is any error.
