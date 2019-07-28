@@ -299,3 +299,54 @@ hwclock --systohc
 This command assumes the hardware clock is set to UTC.
 
 ####    Loaclization
+
+To set the locales you need to uncomment the needed loacles in <code>/etc/locale.gen</code>. You can do this with:
+
+<pre>
+nano /etc/locale.gen
+</pre>
+
+and erasing the '#' before the desired locales. In my case it would look something like this:
+
+<pre>
+
+</pre>
+
+Then run:
+
+<pre>
+locale-gen
+</pre>
+
+To set the variables according to your locales you need to edit **at least the <code>LANG</code> variable** in <code>/etc/locale.conf</code>. Once again, you can do this with:
+
+<pre>
+nano /etc/locale.conf
+</pre>
+
+and it should at least look like this:
+
+<pre>
+LANG=<i>en_US.UTF-8</i>
+</pre>
+
+More complex files can look, for example, like this:
+
+<pre>
+LANG=<i>en_US.UTF-8</i>
+
+</pre>
+
+To make your keyboard layout persistent edit <code>/etc/vconsole.conf</code> with:
+
+<pre>
+nano /etc/vconsole.conf
+</pre>
+
+To look like this:
+
+<pre>
+KEYMAP=pt-latin9
+</pre>
+
+> This change won't do anything in graphical environments. This only applies to the TTY. (Not even terminal emulators)
