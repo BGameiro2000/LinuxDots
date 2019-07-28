@@ -1,6 +1,6 @@
 # Maintainer: Bernardo Gameiro <code.bgameiro@gmail.com>
 pkgname='bgameiro-utils'
-pkgver=0.5
+pkgver=0.6
 pkgrel=1
 pkgdesc="Utilities for BGameiro systems"
 arch=(any)
@@ -29,7 +29,7 @@ depends=(
 	'unrar'
 
 	#Capture and display
-    'scrot'
+    'maim'
     'obs-studio'
 	'mupdf'
 	'feh'
