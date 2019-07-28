@@ -265,3 +265,13 @@ genfstab -L /mnt >> /mnt/etc/fstab
 > You have to run this command (<code>genfstab -L / >> /etc/fstab</code> if already in your system) after adding another mounted drive to your system in order to be persistent after boot.
 
 You can then check the file (<code>/mnt/ect/fstab</code>) in order to see if there is any error.
+
+####    Chroot
+
+Now change root into your system by running:
+
+<pre>
+arch-chroot /mnt
+</pre>
+
+This means that you are now under your system (previously <code>/mnt</code>) instead of the live system.
