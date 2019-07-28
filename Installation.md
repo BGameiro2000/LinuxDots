@@ -275,3 +275,27 @@ arch-chroot /mnt
 </pre>
 
 This means that you are now under your system (previously <code>/mnt</code>) instead of the live system.
+
+####    Time zone
+
+The time zone can be set with:
+
+<pre>
+ln -sf /usr/share/zoneinfo/<i>Region</i>/<i>City</i> /etc/localtime
+</pre>
+
+For example, for Lisbon, Portugal:
+
+<pre>
+ln -sf /usr/share/zoneinfo/Europe/Lisbon /etc/localtime
+</pre>
+
+Now to generate <code>/etc/adjtime</code>:
+
+<pre>
+hwclock --systohc
+</pre>
+
+This command assumes the hardware clock is set to UTC.
+
+####    Loaclization
