@@ -95,7 +95,7 @@ gpg --keyserver-options auto-key-retreive --verify archlinux-<i>version</i>-x86_
 
 Next burn the .iso to your flash drive. There are several ways of doing this, I use [Etcher](balena.io/etcher) since it's free and cross-platform.
 
-Finally access your computer BIOS and make sure that USB lives appear first in the boot order that any other bootable media that you may have installed.
+Finally access your computer BIOS and make sure that USB live appears first in the boot order that any other bootable media that you may have installed.
 
 ####    Boot the live environment
 
