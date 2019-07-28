@@ -24,8 +24,11 @@ depends=(
 	'libgphobos'
 	'liblphobos'
 	'libphobos'
+
+	#Archiso
+	'archiso'
 )
-pkgver=0.2
+pkgver=0.3
 pkgrel=1
 pkgdesc="Development packages for BGameiro systems"
 arch=(any)
