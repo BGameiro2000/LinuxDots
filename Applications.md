@@ -125,7 +125,7 @@ I recommend using [AwesomeWM](https://wiki.archlinux.org/index.php/Awesome), a m
 ###     Code editors
 
 *   [Code](https://wiki.archlinux.org/index.php/Visual_Studio_Code)
-*   [Jupyter Notebook](https://wiki.archlinux.org/index.php/Jupyter)
+*   [Jupyter Lab](https://wiki.archlinux.org/index.php/Jupyter)
 
 ##      Software suites and creation
 

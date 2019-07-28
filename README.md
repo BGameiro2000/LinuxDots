@@ -68,7 +68,7 @@ There are 4 directories in this repo:
 
 Each directory may have its own README file.
 
-This repo includes an [installation and configuration guide](Installation.md) based on Arch Wiki and my installation scripts at the end. It also has a [recommended application list](Application.md) with the apps that better fit my transition from Windows to inux as well as my workflow.
+This repo includes an [installation and configuration guide](Installation.md) based on Arch Wiki and my installation scripts at the end. It also has a [recommended application list](Applications.md) with the apps that better fit my transition from Windows to inux as well as my workflow.
 
 ## Licenses and credit
 

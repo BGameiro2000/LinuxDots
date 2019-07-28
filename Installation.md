@@ -84,7 +84,7 @@ It is recommended that you download using Torrent due to the possibility of havi
 <pre>
 md5sum archlinux-<i>version</i>-x86_64.iso
 
-sha256sum archlinux-<i>version</i>x86_64.iso
+sha256sum archlinux-<i>version</i>-x86_64.iso
 </pre>
 
 You can also verify the integraty of your .iso once you boot it by running:
