@@ -1,10 +1,5 @@
-*.tar
-*.tar.*
-*.jar
 *.exe
 *.msi
-*.zip
-*.tgz
 *.log
 *.log.*
 *.sig
@@ -12,12 +7,7 @@
 pkg/
 src/
 
-*.pkg.tar.xz
-*.tar.gz
 /pkg/**/pkg/
 /pkg/**/src/
-repo/
-*.log
-root/
 
-*.tar.gz
+*.old
