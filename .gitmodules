@@ -1,0 +1,6 @@
+[submodule "ArchCustom/ArchRepo"]
+	path = ArchCustom/ArchRepo
+	url = https://github.com/BGameiro76/ArchRepo
+[submodule "ArchCustom/ArchIso"]
+	path = ArchCustom/ArchIso
+	url = https://github.com/BGameiro76/ArchIso
