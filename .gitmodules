@@ -1,8 +1,0 @@
-[submodule "ArchCustom/ArchRepo"]
-	path = ArchCustom/ArchRepo
-	url = https://github.com/BGameiro76/ArchRepo
-	branch = master
-[submodule "ArchCustom/ArchIso"]
-	path = ArchCustom/ArchIso
-	url = https://github.com/BGameiro76/ArchIso
-	branch = master
