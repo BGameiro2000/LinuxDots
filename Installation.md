@@ -389,3 +389,11 @@ If you have a custom system (RAID, LVM, ...), modify mkinitcpio.conf and run:
 mkinitcpio -p linux
 </pre>
 
+####    Root password
+
+To set the root password run:
+
+<pre>
+passwd
+</pre>
+
