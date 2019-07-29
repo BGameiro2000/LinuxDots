@@ -351,3 +351,30 @@ KEYMAP=pt-latin9
 
 > This change won't do anything in graphical environments. This only applies to the TTY. (Not even terminal emulators)
 
+####    Network configuration
+
+Create the hostname (name of your host) file:
+
+<pre>
+nano /etc/hostname
+</pre>
+
+with the name of your host:
+
+<pre>
+<i>myhostname</i>
+</pre>
+
+and match the entries to hosts:
+
+<pre>
+nano /etc/hosts
+</pre>
+
+<pre>
+127.0.0.1   localhost
+::1         localhost
+127.0.1.1   <i>myhostname</i>.localdomain   <i>myhostname</i>
+</pre>
+
+> A permanent IP address should replace <i>127.0.1.1</i> in case there is one configured.
