@@ -397,3 +397,40 @@ To set the root password run:
 passwd
 </pre>
 
+####    Boot loader
+
+There are several boot loaders. This guide uses <code>systemd-boot</code> since it's already installed.
+
+To install run:
+
+<pre>
+bootctl --path=/boot install
+</pre>
+
+To configure you have to create/edit <code>/boot/loader/loader.conf</code> and then add the entries necessary.
+
+First:
+
+<pre>
+nano /boot/loader/loader.conf
+</pre>
+
+<pre>
+default         <i>arch</i>
+timeout         <i>0</i>
+console-mode    <i>max</i>
+</pre>
+
+And finally:
+
+<pre>
+nano /boot/loader/entries/arch.conf
+</pre>
+
+<pre>
+title   <i>Arch Linux</i>
+linux   <i>/vmlinuz-linux</i>
+initrd  <i>/intel-ucode.img</i>
+initrd  <i>/initramfs-linux.img</i>
+options root=LABEL=<i>YourRootLabel</i> rw <i>quiet loglevel=3 vga=current</i>
+</pre> 
