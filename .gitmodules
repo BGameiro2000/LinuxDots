@@ -1,0 +1,3 @@
+[submodule "ArchCustom/ArchRepo"]
+	path = ArchCustom/ArchRepo
+	url = https://github.com/BGameiro76/ArchRepo
