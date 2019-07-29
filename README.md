@@ -90,3 +90,7 @@ Also my configurations are based on my own ideas and my workflow as well as the 
 *   https://www.reddit.com/r/unixporn/comments/bl3d8m/openbox_mischief_soap_mayhem/
 *   https://www.reddit.com/r/FirefoxCSS/comments/86r9yw/tried_to_mimic_the_firefox_focus_colors_heres_how/
 *   https://www.reddit.com/r/FirefoxCSS/comments/7emhsq/my_compact_treestyletab_css_and_sidebar_hover/
+
+Design:
+
+*   https://material.io/
