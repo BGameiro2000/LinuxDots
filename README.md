@@ -57,8 +57,8 @@ All configurations related to my systems.
 14.   How to configure your system like mine.
 <br><br>
 15.   Preview:
-      1.    Screenshots and video
-      2.    Live of my system as an ISO
+      *    Screenshots and video
+      *    Live of my system as an ISO
 
 ## How is this repo organized?
 
