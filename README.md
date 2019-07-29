@@ -4,6 +4,8 @@
 
 All configurations related to my systems.
 
+You can preview my system [here]() or you can download [my ISO](https://github.com/BGameiro76/dotfiles/releases) and test my configurations in a live system.
+
 [<img src="https://img.shields.io/github/contributors/BGameiro76/dotfiles.svg?label=Contributors" />](https://github.com/BGameiro76/dotfiles/graphs/contributors)
 
 ## What's included?
