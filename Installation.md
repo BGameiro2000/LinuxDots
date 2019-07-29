@@ -298,7 +298,7 @@ hwclock --systohc
 
 This command assumes the hardware clock is set to UTC.
 
-####    Loaclization
+####    Localization
 
 To set the locales you need to uncomment the needed loacles in <code>/etc/locale.gen</code>. You can do this with:
 
@@ -350,3 +350,4 @@ KEYMAP=pt-latin9
 </pre>
 
 > This change won't do anything in graphical environments. This only applies to the TTY. (Not even terminal emulators)
+
