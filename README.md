@@ -1,6 +1,6 @@
 # BGameiro's dotfiles
 
-<img style="filter:hue-rotate(0deg)" align="right" width="100" height="auto" src="dotfiles-logo.png">
+<img style="filter:hue-rotate(0deg)" align="right" width="100" height="auto" src="Media/Repo/dotfiles-logo.png">
 
 All configurations related to my systems.
 
@@ -9,7 +9,7 @@ All configurations related to my systems.
 ## What's included?
 
 1.  Custom pacman repository with all Arch Official Packages that I have installed.
-[<img align="right" src="https://img.shields.io/github/release/BGameiro76/dotfiles.svg" />](https://github.com/BGameiro76/dotfiles/releases/latest)
+[<img align="right" src="https://img.shields.io/github/release/BGameiro76/dotfiles.svg" />](https://github.com/BGameiro76/dotfiles/ArchCustom/ArchRepo)
 <br><br>
 2.  AUR packages that I use and a script to install them with yay.
 <br><br>
@@ -53,16 +53,22 @@ All configurations related to my systems.
 12.   Any custom script that I may have.
 <br><br>
 13.   Arch Wiki based installation guide.
+<br><br>
+14.   How to configure your system like mine.
+<br><br>
+15.   Preview:
+      1.    Screenshots and video
+      2.    Live of my system as an ISO
 
 ## How is this repo organized?
 
 There are 4 directories in this repo:
-*   Arch-repo
-     *   Includes my custom pacman repository, the AUR packages that I use, an example of a PKGBUILD and my pacman.conf.
+*   ArchCustom
+     *   Includes my custom pacman repository, the AUR packages that I use, an example of a PKGBUILD, my pacman.conf and a live system configured as mine.
 *   Configs
      *   Includes all the configurations for boot loaders, display servers, display managers, window managers and other applications.
 *   Media
-     *   Includes my wallpapers and other media.
+     *   Includes my wallpapers and other media, media related to this repo and previews of my system.
 *   Scripts
      *   Includes the scripts that I use.
 
