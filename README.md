@@ -11,7 +11,7 @@ You can preview my system [here]() or you can download [my ISO](https://github.c
 ## What's included?
 
 1.  Custom pacman repository with all Arch Official Packages that I have installed.
-[<img align="right" src="https://img.shields.io/github/release/BGameiro76/dotfiles.svg" />](https://github.com/BGameiro76/dotfiles/ArchCustom/ArchRepo)
+[<img align="right" src="https://img.shields.io/github/release/BGameiro76/ArchRepo.svg" />](https://github.com/BGameiro76/ArchRepo)
 <br><br>
 2.  AUR packages that I use and a script to install them with yay.
 <br><br>
