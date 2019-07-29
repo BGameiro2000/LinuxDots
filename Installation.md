@@ -378,3 +378,14 @@ nano /etc/hosts
 </pre>
 
 > A permanent IP address should replace <i>127.0.1.1</i> in case there is one configured.
+
+####    Initramfs
+
+> Usually this is not required since <code>mkinitcpio</code> was run on installation of linux with <code>pacstrap</code>.
+
+If you have a custom system (RAID, LVM, ...), modify mkinitcpio.conf and run:
+
+<pre>
+mkinitcpio -p linux
+</pre>
+
