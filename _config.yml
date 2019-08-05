@@ -8,4 +8,4 @@ include:
   - LICENSE.md
   - CONTRIBUTING.md
 
-theme: jekyll-theme-prologue
+remote_theme: chrisbobbe/jekyll-theme-prologue
