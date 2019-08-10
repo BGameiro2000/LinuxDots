@@ -1,9 +1,3 @@
----
-category: Readme
-title: 'Linux Dotfiles'
-type: 'INFO'
----
-
 # BGameiro's dotfiles
 
 <img style="filter:hue-rotate(0deg)" align="right" width="100" height="auto" src="Media/Repo/dotfiles-logo.png">
