@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="canonical" href="https://bgameiro2000.github.io/" />
+        <meta property="og:url" content="https://bgameiro2000.github.io/" />
+
+        <meta name="description" content="{{ meta_description }}" />
+        <title>{{ user.name }}</title>
+        <!--<meta name="keywords" content="Linux, ArchLinux, Dotfiles, Pacman, Guides, Configurations, Scripts">-->
+        <meta name="author" content="BGameiro">
+        <link rel="stylesheet" href="https://bgameiro2000.github.io/assets/css/style.css">
+
+        <style>
+        
+            body{
+                background-color: #22252a;
+                color: #cccccc;
+                margin: 0;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6{
+                color: #ffffff;
+            }
+
+            pre,
+            code{
+                color: #ffffff;
+                background-color: rgb(56, 56, 56);
+            }
+
+            :link{
+                color: #ffffff;
+            }
+        
+            :visited{
+                color: #cccccc;
+            }
+
+            img,
+            .markdown-body img{
+                background-color: transparent;
+            }
+
+            .markdown-body pre{
+                background-color: #696969;
+            }
+
+            markdown-body blockquote {
+                color: #a0a4c9;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="container-lg px-3 my-5 markdown-body">
+
+            <h1 style="font-size: 2.5em;"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}">{{ site.github.project_title }}</a></h1>
+
+            {{ content }}
+        
+            <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+
+                This site is open source. <a href="{{ site.url | append:'edit/master/README.md' }}">Improve this page</a>.
+        
+            </div>
+
+        </div>
+
+    </body>
+
+</html> 
